@@ -1,0 +1,24 @@
+/* //text urai select garda  */
+
+p::selection{
+    background-color: rgb(213, 233, 39);
+    color: rgb(207, 8, 75);
+}
+
+/* first letter thulo ra bold banauna */
+p::first-letter{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+/* //Text matra color garne */
+h1{
+    font-size: 4rem;
+    background: linear-gradient(to left, purple, pink) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+

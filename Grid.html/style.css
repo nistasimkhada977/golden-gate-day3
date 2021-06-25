@@ -1,0 +1,39 @@
+h1{
+    color: blue;
+}
+
+.Grid{
+ 
+  display: grid;         
+  grid-template-columns: 50% 50% ;   
+  grid-column-gap: 1em;  
+  grid-row-gap: 1em;   
+  border-radius: 15px;
+
+  
+}
+
+
+.Grid > div{
+  color: black;
+  padding: 1em;
+ 
+}
+.Grid > div:nth-child(odd){
+background-color: honeydew;
+}
+
+.Grid > div:nth-child(even){
+  background-color:khaki;
+  }
+  
+
+
+  button:hover {
+
+    background-image: linear-gradient(to bottom right, yellow, #eee);
+  }
+
+
+
+ 
